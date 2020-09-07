@@ -1,0 +1,20 @@
+/*
+ * Fontes *
+ * Non-free: https://www.fonts.com/font/intellecta-design/erased-typewriter
+ * Non-free: https://www.fonts.com/font/canada-type/chapter-11/regular
+ * List: https://www.dafont.com/traveling-typewriter.font?text=108.+Raymond+Reddington&back=theme (Free personal)
+ * Text: https://www.dafont.com/moms-typewriter.font?text=Raymond+Reddington&back=theme (100% free)
+ * List/Text: https://www.dafont.com/albertsthal-typewriter.font?text=108.+Raymond+Reddington&back=theme (Free personal)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E3D6C3;  /* fallback for old browsers */
+    background: linear-gradient(to right, #E3D6C3, #E4D7C4, #E6D9C6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
