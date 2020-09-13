@@ -1,1076 +1,914 @@
-{
-    "columns": [
-        "season_no",
-        "no_in_season",
-        "title",
-        "blacklist_guide"
-    ],
-    "index": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151
-    ],
-    "data": [
-        [
-            1,
-            1,
-            "Pilot",
-            "52"
-        ],
-        [
-            1,
-            2,
-            "The Freelancer",
-            "145"
-        ],
-        [
-            1,
-            3,
-            "Wujing",
-            "84"
-        ],
-        [
-            1,
-            4,
-            "The Stewmaker",
-            "161"
-        ],
-        [
-            1,
-            5,
-            "The Courier",
-            "85"
-        ],
-        [
-            1,
-            6,
-            "Gina Zanetakos",
-            "152"
-        ],
-        [
-            1,
-            7,
-            "Frederick Barnes",
-            "47"
-        ],
-        [
-            1,
-            8,
-            "General Ludd",
-            "109"
-        ],
-        [
-            1,
-            9,
-            "Anslo Garrick",
-            "16"
-        ],
-        [
-            1,
-            10,
-            "Anslo Garrick Conclusion",
-            "16"
-        ],
-        [
-            1,
-            11,
-            "The Good Samaritan",
-            "106"
-        ],
-        [
-            1,
-            12,
-            "The Alchemist",
-            "101"
-        ],
-        [
-            1,
-            13,
-            "The Cyprus Agency",
-            "64"
-        ],
-        [
-            1,
-            14,
-            "Madeline Pratt",
-            "73"
-        ],
-        [
-            1,
-            15,
-            "The Judge",
-            "57"
-        ],
-        [
-            1,
-            16,
-            "Mako Tanida",
-            "83"
-        ],
-        [
-            1,
-            17,
-            "Ivan",
-            "88"
-        ],
-        [
-            1,
-            18,
-            "Milton Bobbit",
-            "135"
-        ],
-        [
-            1,
-            19,
-            "The Pavlovich Brothers",
-            "119-122"
-        ],
-        [
-            1,
-            20,
-            "The Kingmaker",
-            "42"
-        ],
-        [
-            1,
-            21,
-            "Berlin",
-            "8"
-        ],
-        [
-            1,
-            22,
-            "Berlin Conclusion",
-            "8"
-        ],
-        [
-            2,
-            1,
-            "Lord Baltimore",
-            "104"
-        ],
-        [
-            2,
-            2,
-            "Monarch Douglas Bank",
-            "112"
-        ],
-        [
-            2,
-            3,
-            "Dr. James Covington",
-            "89"
-        ],
-        [
-            2,
-            4,
-            "Dr. Linus Creel",
-            "82"
-        ],
-        [
-            2,
-            5,
-            "The Front",
-            "74"
-        ],
-        [
-            2,
-            6,
-            "The Mombasa Cartel",
-            "114"
-        ],
-        [
-            2,
-            7,
-            "The Scimitar",
-            "22"
-        ],
-        [
-            2,
-            8,
-            "The Decembrist",
-            "12"
-        ],
-        [
-            2,
-            9,
-            "Luther Braxton",
-            "21"
-        ],
-        [
-            2,
-            10,
-            "Luther Braxton Conclusion",
-            "21"
-        ],
-        [
-            2,
-            11,
-            "Ruslan Denisov",
-            "67"
-        ],
-        [
-            2,
-            12,
-            "The Kenyon Family",
-            "71"
-        ],
-        [
-            2,
-            13,
-            "The Deer Hunter",
-            "93"
-        ],
-        [
-            2,
-            14,
-            "T. Earl King VI",
-            "94"
-        ],
-        [
-            2,
-            15,
-            "The Major",
-            "75"
-        ],
-        [
-            2,
-            16,
-            "Tom Keen",
-            "7"
-        ],
-        [
-            2,
-            17,
-            "The Longevity Initiative",
-            "97"
-        ],
-        [
-            2,
-            18,
-            "Vanessa Cruz",
-            "117"
-        ],
-        [
-            2,
-            19,
-            "Leonard Caul",
-            "62"
-        ],
-        [
-            2,
-            20,
-            "Quon Zhang",
-            "87"
-        ],
-        [
-            2,
-            21,
-            "Karakurt",
-            "55"
-        ],
-        [
-            2,
-            22,
-            "Tom Connolly",
-            "11"
-        ],
-        [
-            3,
-            1,
-            "The Troll Farmer",
-            "38"
-        ],
-        [
-            3,
-            2,
-            "Marvin Gerard",
-            "80"
-        ],
-        [
-            3,
-            3,
-            "Eli Matchett",
-            "72"
-        ],
-        [
-            3,
-            4,
-            "The Djinn",
-            "43"
-        ],
-        [
-            3,
-            5,
-            "Arioch Cain",
-            "50"
-        ],
-        [
-            3,
-            6,
-            "Sir Crispin Crandall",
-            "86"
-        ],
-        [
-            3,
-            7,
-            "Zal Bin Hasaan",
-            "31"
-        ],
-        [
-            3,
-            8,
-            "Kings of the Highway",
-            "108"
-        ],
-        [
-            3,
-            9,
-            "The Director",
-            "24"
-        ],
-        [
-            3,
-            10,
-            "The Director: Conclusion",
-            "24"
-        ],
-        [
-            3,
-            11,
-            "Mr. Gregory Devry",
-            "95"
-        ],
-        [
-            3,
-            12,
-            "The Vehm",
-            "132"
-        ],
-        [
-            3,
-            13,
-            "Alistair Pitt",
-            "103"
-        ],
-        [
-            3,
-            14,
-            "Lady Ambrosia",
-            "77"
-        ],
-        [
-            3,
-            15,
-            "Drexel",
-            "113"
-        ],
-        [
-            3,
-            16,
-            "The Caretaker",
-            "78"
-        ],
-        [
-            3,
-            17,
-            "Mr. Solomon",
-            "32"
-        ],
-        [
-            3,
-            18,
-            "Mr. Solomon: Conclusion",
-            "32"
-        ],
-        [
-            3,
-            19,
-            "Cape May",
-            null
-        ],
-        [
-            3,
-            20,
-            "The Artax Network",
-            "41"
-        ],
-        [
-            3,
-            21,
-            "Susan Hargrave",
-            "18"
-        ],
-        [
-            3,
-            22,
-            "Alexander Kirk",
-            "14"
-        ],
-        [
-            3,
-            23,
-            "Alexander Kirk: Conclusion",
-            "14"
-        ],
-        [
-            4,
-            1,
-            "Esteban",
-            "79"
-        ],
-        [
-            4,
-            2,
-            "Mato",
-            "66"
-        ],
-        [
-            4,
-            3,
-            "Miles McGrath",
-            "65"
-        ],
-        [
-            4,
-            4,
-            "Gaia",
-            "81"
-        ],
-        [
-            4,
-            5,
-            "The Lindquist Concern",
-            "105"
-        ],
-        [
-            4,
-            6,
-            "The Thrushes",
-            "53"
-        ],
-        [
-            4,
-            7,
-            "Dr. Adrian Shaw",
-            "98"
-        ],
-        [
-            4,
-            8,
-            "Dr. Adrian Shaw: Conclusion",
-            "98"
-        ],
-        [
-            4,
-            9,
-            "Lipet's Seafood Company",
-            "111"
-        ],
-        [
-            4,
-            10,
-            "The Forecaster",
-            "163"
-        ],
-        [
-            4,
-            11,
-            "The Harem",
-            "102"
-        ],
-        [
-            4,
-            12,
-            "Natalie Luca",
-            "184"
-        ],
-        [
-            4,
-            13,
-            "Isabella Stone",
-            "34"
-        ],
-        [
-            4,
-            14,
-            "The Architect",
-            "107"
-        ],
-        [
-            4,
-            15,
-            "The Apothecary",
-            "59"
-        ],
-        [
-            4,
-            16,
-            "Dembe Zuma",
-            "10"
-        ],
-        [
-            4,
-            17,
-            "Requiem",
-            null
-        ],
-        [
-            4,
-            18,
-            "Philomena",
-            "61"
-        ],
-        [
-            4,
-            19,
-            "Dr. Bogdan Krilov",
-            "29"
-        ],
-        [
-            4,
-            20,
-            "The Debt Collector",
-            "46"
-        ],
-        [
-            4,
-            21,
-            "Mr. Kaplan",
-            "4"
-        ],
-        [
-            4,
-            22,
-            "Mr. Kaplan: Conclusion",
-            "4"
-        ],
-        [
-            5,
-            1,
-            "Smokey Putnum",
-            "30"
-        ],
-        [
-            5,
-            2,
-            "Greyson Blaise",
-            "37"
-        ],
-        [
-            5,
-            3,
-            "Miss Rebecca Thrall",
-            "76"
-        ],
-        [
-            5,
-            4,
-            "The Endling",
-            "44"
-        ],
-        [
-            5,
-            5,
-            "Ilyas Surkov",
-            "54"
-        ],
-        [
-            5,
-            6,
-            "The Travel Agency",
-            "90"
-        ],
-        [
-            5,
-            7,
-            "The Kilgannon Corporation",
-            "48"
-        ],
-        [
-            5,
-            8,
-            "Ian Garvey",
-            "13"
-        ],
-        [
-            5,
-            9,
-            "Ruin",
-            null
-        ],
-        [
-            5,
-            10,
-            "The Informant",
-            "118"
-        ],
-        [
-            5,
-            11,
-            "Abraham Stern",
-            "100"
-        ],
-        [
-            5,
-            12,
-            "The Cook",
-            "56"
-        ],
-        [
-            5,
-            13,
-            "The Invisible Hand",
-            "63"
-        ],
-        [
-            5,
-            14,
-            "Mr. Raleigh Sinclair III",
-            "51"
-        ],
-        [
-            5,
-            15,
-            "Pattie Sue Edwards",
-            "68"
-        ],
-        [
-            5,
-            16,
-            "The Capricorn Killer",
-            "19"
-        ],
-        [
-            5,
-            17,
-            "Anna-Gracia Duerte",
-            "25"
-        ],
-        [
-            5,
-            18,
-            "Zarak Mosadek",
-            "23"
-        ],
-        [
-            5,
-            19,
-            "Ian Garvey: Conclusion",
-            "13"
-        ],
-        [
-            5,
-            20,
-            "Nicholas T. Moore",
-            "110"
-        ],
-        [
-            5,
-            21,
-            "Lawrence Dane Devlin",
-            "26"
-        ],
-        [
-            5,
-            22,
-            "Sutton Ross",
-            "17"
-        ],
-        [
-            6,
-            1,
-            "Dr. Hans Koehler",
-            "33"
-        ],
-        [
-            6,
-            2,
-            "The Corsican",
-            "20"
-        ],
-        [
-            6,
-            3,
-            "The Pharmacist",
-            "124"
-        ],
-        [
-            6,
-            4,
-            "The Pawnbrokers",
-            "146\/147"
-        ],
-        [
-            6,
-            5,
-            "Alter Ego",
-            "131"
-        ],
-        [
-            6,
-            6,
-            "The Ethicist",
-            "91"
-        ],
-        [
-            6,
-            7,
-            "General Shiro",
-            "116"
-        ],
-        [
-            6,
-            8,
-            "Marko Jankowics",
-            "58"
-        ],
-        [
-            6,
-            9,
-            "Minister D",
-            "99"
-        ],
-        [
-            6,
-            10,
-            "The Cryptobanker",
-            "160"
-        ],
-        [
-            6,
-            11,
-            "Bastien Moreau",
-            "20"
-        ],
-        [
-            6,
-            12,
-            "Bastien Moreau: Conclusion",
-            "20"
-        ],
-        [
-            6,
-            13,
-            "Robert Vesco",
-            "9"
-        ],
-        [
-            6,
-            14,
-            "The Osterman Umbrella Company",
-            "6"
-        ],
-        [
-            6,
-            15,
-            "Olivia Olson",
-            "115"
-        ],
-        [
-            6,
-            16,
-            "Lady Luck",
-            "69"
-        ],
-        [
-            6,
-            17,
-            "The Third Estate",
-            "136"
-        ],
-        [
-            6,
-            18,
-            "The Brockton College Killer",
-            "92"
-        ],
-        [
-            6,
-            19,
-            "Rassvet",
-            null
-        ],
-        [
-            6,
-            20,
-            "Guillermo Rizal",
-            "128"
-        ],
-        [
-            6,
-            21,
-            "Anna McMahon",
-            "60"
-        ],
-        [
-            6,
-            22,
-            "Robert Diaz",
-            "15"
-        ],
-        [
-            7,
-            1,
-            "Louis T. Steinhil",
-            "27"
-        ],
-        [
-            7,
-            2,
-            "Louis T. Steinhil: Conclusion",
-            "27"
-        ],
-        [
-            7,
-            3,
-            "Les Fleurs Du Mal",
-            "151"
-        ],
-        [
-            7,
-            4,
-            "Kuwait",
-            null
-        ],
-        [
-            7,
-            5,
-            "Norman Devane",
-            "138"
-        ],
-        [
-            7,
-            6,
-            "Dr. Lewis Powell",
-            "130"
-        ],
-        [
-            7,
-            7,
-            "Hannah Hayes",
-            "125"
-        ],
-        [
-            7,
-            8,
-            "The Hawaladar",
-            "162"
-        ],
-        [
-            7,
-            9,
-            "Orion Relocation Services",
-            "159"
-        ],
-        [
-            7,
-            10,
-            "Katarina Rostova",
-            "3"
-        ],
-        [
-            7,
-            11,
-            "Victoria Fenberg",
-            "137"
-        ],
-        [
-            7,
-            12,
-            "Cornelius Ruck",
-            "155"
-        ],
-        [
-            7,
-            13,
-            "Newton Purcell",
-            "144"
-        ],
-        [
-            7,
-            14,
-            "Twamie Ullulaq",
-            "126"
-        ],
-        [
-            7,
-            15,
-            "Gordon Kemp",
-            "158"
-        ],
-        [
-            7,
-            16,
-            "Nyle Hatcher",
-            "149"
-        ],
-        [
-            7,
-            17,
-            "Brothers",
-            null
-        ],
-        [
-            7,
-            18,
-            "Roy Cain",
-            "150"
-        ],
-        [
-            7,
-            19,
-            "The Kazanjian Brothers",
-            "156\/157"
-        ]
-    ]
-}
+[
+    {
+        "season_no": 1,
+        "no_in_season": 1,
+        "title": "Pilot",
+        "blacklist_guide": "52"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 2,
+        "title": "The Freelancer",
+        "blacklist_guide": "145"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 3,
+        "title": "Wujing",
+        "blacklist_guide": "84"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 4,
+        "title": "The Stewmaker",
+        "blacklist_guide": "161"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 5,
+        "title": "The Courier",
+        "blacklist_guide": "85"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 6,
+        "title": "Gina Zanetakos",
+        "blacklist_guide": "152"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 7,
+        "title": "Frederick Barnes",
+        "blacklist_guide": "47"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 8,
+        "title": "General Ludd",
+        "blacklist_guide": "109"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 9,
+        "title": "Anslo Garrick",
+        "blacklist_guide": "16"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 10,
+        "title": "Anslo Garrick Conclusion",
+        "blacklist_guide": "16"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 11,
+        "title": "The Good Samaritan",
+        "blacklist_guide": "106"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 12,
+        "title": "The Alchemist",
+        "blacklist_guide": "101"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 13,
+        "title": "The Cyprus Agency",
+        "blacklist_guide": "64"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 14,
+        "title": "Madeline Pratt",
+        "blacklist_guide": "73"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 15,
+        "title": "The Judge",
+        "blacklist_guide": "57"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 16,
+        "title": "Mako Tanida",
+        "blacklist_guide": "83"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 17,
+        "title": "Ivan",
+        "blacklist_guide": "88"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 18,
+        "title": "Milton Bobbit",
+        "blacklist_guide": "135"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 19,
+        "title": "The Pavlovich Brothers",
+        "blacklist_guide": "119-122"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 20,
+        "title": "The Kingmaker",
+        "blacklist_guide": "42"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 21,
+        "title": "Berlin",
+        "blacklist_guide": "8"
+    },
+    {
+        "season_no": 1,
+        "no_in_season": 22,
+        "title": "Berlin Conclusion",
+        "blacklist_guide": "8"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 1,
+        "title": "Lord Baltimore",
+        "blacklist_guide": "104"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 2,
+        "title": "Monarch Douglas Bank",
+        "blacklist_guide": "112"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 3,
+        "title": "Dr. James Covington",
+        "blacklist_guide": "89"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 4,
+        "title": "Dr. Linus Creel",
+        "blacklist_guide": "82"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 5,
+        "title": "The Front",
+        "blacklist_guide": "74"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 6,
+        "title": "The Mombasa Cartel",
+        "blacklist_guide": "114"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 7,
+        "title": "The Scimitar",
+        "blacklist_guide": "22"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 8,
+        "title": "The Decembrist",
+        "blacklist_guide": "12"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 9,
+        "title": "Luther Braxton",
+        "blacklist_guide": "21"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 10,
+        "title": "Luther Braxton Conclusion",
+        "blacklist_guide": "21"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 11,
+        "title": "Ruslan Denisov",
+        "blacklist_guide": "67"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 12,
+        "title": "The Kenyon Family",
+        "blacklist_guide": "71"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 13,
+        "title": "The Deer Hunter",
+        "blacklist_guide": "93"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 14,
+        "title": "T. Earl King VI",
+        "blacklist_guide": "94"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 15,
+        "title": "The Major",
+        "blacklist_guide": "75"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 16,
+        "title": "Tom Keen",
+        "blacklist_guide": "7"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 17,
+        "title": "The Longevity Initiative",
+        "blacklist_guide": "97"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 18,
+        "title": "Vanessa Cruz",
+        "blacklist_guide": "117"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 19,
+        "title": "Leonard Caul",
+        "blacklist_guide": "62"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 20,
+        "title": "Quon Zhang",
+        "blacklist_guide": "87"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 21,
+        "title": "Karakurt",
+        "blacklist_guide": "55"
+    },
+    {
+        "season_no": 2,
+        "no_in_season": 22,
+        "title": "Tom Connolly",
+        "blacklist_guide": "11"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 1,
+        "title": "The Troll Farmer",
+        "blacklist_guide": "38"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 2,
+        "title": "Marvin Gerard",
+        "blacklist_guide": "80"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 3,
+        "title": "Eli Matchett",
+        "blacklist_guide": "72"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 4,
+        "title": "The Djinn",
+        "blacklist_guide": "43"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 5,
+        "title": "Arioch Cain",
+        "blacklist_guide": "50"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 6,
+        "title": "Sir Crispin Crandall",
+        "blacklist_guide": "86"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 7,
+        "title": "Zal Bin Hasaan",
+        "blacklist_guide": "31"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 8,
+        "title": "Kings of the Highway",
+        "blacklist_guide": "108"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 9,
+        "title": "The Director",
+        "blacklist_guide": "24"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 10,
+        "title": "The Director: Conclusion",
+        "blacklist_guide": "24"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 11,
+        "title": "Mr. Gregory Devry",
+        "blacklist_guide": "95"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 12,
+        "title": "The Vehm",
+        "blacklist_guide": "132"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 13,
+        "title": "Alistair Pitt",
+        "blacklist_guide": "103"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 14,
+        "title": "Lady Ambrosia",
+        "blacklist_guide": "77"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 15,
+        "title": "Drexel",
+        "blacklist_guide": "113"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 16,
+        "title": "The Caretaker",
+        "blacklist_guide": "78"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 17,
+        "title": "Mr. Solomon",
+        "blacklist_guide": "32"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 18,
+        "title": "Mr. Solomon: Conclusion",
+        "blacklist_guide": "32"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 19,
+        "title": "Cape May",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 20,
+        "title": "The Artax Network",
+        "blacklist_guide": "41"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 21,
+        "title": "Susan Hargrave",
+        "blacklist_guide": "18"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 22,
+        "title": "Alexander Kirk",
+        "blacklist_guide": "14"
+    },
+    {
+        "season_no": 3,
+        "no_in_season": 23,
+        "title": "Alexander Kirk: Conclusion",
+        "blacklist_guide": "14"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 1,
+        "title": "Esteban",
+        "blacklist_guide": "79"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 2,
+        "title": "Mato",
+        "blacklist_guide": "66"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 3,
+        "title": "Miles McGrath",
+        "blacklist_guide": "65"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 4,
+        "title": "Gaia",
+        "blacklist_guide": "81"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 5,
+        "title": "The Lindquist Concern",
+        "blacklist_guide": "105"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 6,
+        "title": "The Thrushes",
+        "blacklist_guide": "53"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 7,
+        "title": "Dr. Adrian Shaw",
+        "blacklist_guide": "98"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 8,
+        "title": "Dr. Adrian Shaw: Conclusion",
+        "blacklist_guide": "98"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 9,
+        "title": "Lipet's Seafood Company",
+        "blacklist_guide": "111"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 10,
+        "title": "The Forecaster",
+        "blacklist_guide": "163"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 11,
+        "title": "The Harem",
+        "blacklist_guide": "102"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 12,
+        "title": "Natalie Luca",
+        "blacklist_guide": "184"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 13,
+        "title": "Isabella Stone",
+        "blacklist_guide": "34"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 14,
+        "title": "The Architect",
+        "blacklist_guide": "107"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 15,
+        "title": "The Apothecary",
+        "blacklist_guide": "59"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 16,
+        "title": "Dembe Zuma",
+        "blacklist_guide": "10"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 17,
+        "title": "Requiem",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 18,
+        "title": "Philomena",
+        "blacklist_guide": "61"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 19,
+        "title": "Dr. Bogdan Krilov",
+        "blacklist_guide": "29"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 20,
+        "title": "The Debt Collector",
+        "blacklist_guide": "46"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 21,
+        "title": "Mr. Kaplan",
+        "blacklist_guide": "4"
+    },
+    {
+        "season_no": 4,
+        "no_in_season": 22,
+        "title": "Mr. Kaplan: Conclusion",
+        "blacklist_guide": "4"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 1,
+        "title": "Smokey Putnum",
+        "blacklist_guide": "30"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 2,
+        "title": "Greyson Blaise",
+        "blacklist_guide": "37"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 3,
+        "title": "Miss Rebecca Thrall",
+        "blacklist_guide": "76"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 4,
+        "title": "The Endling",
+        "blacklist_guide": "44"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 5,
+        "title": "Ilyas Surkov",
+        "blacklist_guide": "54"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 6,
+        "title": "The Travel Agency",
+        "blacklist_guide": "90"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 7,
+        "title": "The Kilgannon Corporation",
+        "blacklist_guide": "48"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 8,
+        "title": "Ian Garvey",
+        "blacklist_guide": "13"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 9,
+        "title": "Ruin",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 10,
+        "title": "The Informant",
+        "blacklist_guide": "118"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 11,
+        "title": "Abraham Stern",
+        "blacklist_guide": "100"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 12,
+        "title": "The Cook",
+        "blacklist_guide": "56"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 13,
+        "title": "The Invisible Hand",
+        "blacklist_guide": "63"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 14,
+        "title": "Mr. Raleigh Sinclair III",
+        "blacklist_guide": "51"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 15,
+        "title": "Pattie Sue Edwards",
+        "blacklist_guide": "68"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 16,
+        "title": "The Capricorn Killer",
+        "blacklist_guide": "19"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 17,
+        "title": "Anna-Gracia Duerte",
+        "blacklist_guide": "25"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 18,
+        "title": "Zarak Mosadek",
+        "blacklist_guide": "23"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 19,
+        "title": "Ian Garvey: Conclusion",
+        "blacklist_guide": "13"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 20,
+        "title": "Nicholas T. Moore",
+        "blacklist_guide": "110"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 21,
+        "title": "Lawrence Dane Devlin",
+        "blacklist_guide": "26"
+    },
+    {
+        "season_no": 5,
+        "no_in_season": 22,
+        "title": "Sutton Ross",
+        "blacklist_guide": "17"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 1,
+        "title": "Dr. Hans Koehler",
+        "blacklist_guide": "33"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 2,
+        "title": "The Corsican",
+        "blacklist_guide": "20"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 3,
+        "title": "The Pharmacist",
+        "blacklist_guide": "124"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 4,
+        "title": "The Pawnbrokers",
+        "blacklist_guide": "146\/147"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 5,
+        "title": "Alter Ego",
+        "blacklist_guide": "131"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 6,
+        "title": "The Ethicist",
+        "blacklist_guide": "91"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 7,
+        "title": "General Shiro",
+        "blacklist_guide": "116"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 8,
+        "title": "Marko Jankowics",
+        "blacklist_guide": "58"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 9,
+        "title": "Minister D",
+        "blacklist_guide": "99"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 10,
+        "title": "The Cryptobanker",
+        "blacklist_guide": "160"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 11,
+        "title": "Bastien Moreau",
+        "blacklist_guide": "20"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 12,
+        "title": "Bastien Moreau: Conclusion",
+        "blacklist_guide": "20"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 13,
+        "title": "Robert Vesco",
+        "blacklist_guide": "9"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 14,
+        "title": "The Osterman Umbrella Company",
+        "blacklist_guide": "6"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 15,
+        "title": "Olivia Olson",
+        "blacklist_guide": "115"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 16,
+        "title": "Lady Luck",
+        "blacklist_guide": "69"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 17,
+        "title": "The Third Estate",
+        "blacklist_guide": "136"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 18,
+        "title": "The Brockton College Killer",
+        "blacklist_guide": "92"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 19,
+        "title": "Rassvet",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 20,
+        "title": "Guillermo Rizal",
+        "blacklist_guide": "128"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 21,
+        "title": "Anna McMahon",
+        "blacklist_guide": "60"
+    },
+    {
+        "season_no": 6,
+        "no_in_season": 22,
+        "title": "Robert Diaz",
+        "blacklist_guide": "15"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 1,
+        "title": "Louis T. Steinhil",
+        "blacklist_guide": "27"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 2,
+        "title": "Louis T. Steinhil: Conclusion",
+        "blacklist_guide": "27"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 3,
+        "title": "Les Fleurs Du Mal",
+        "blacklist_guide": "151"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 4,
+        "title": "Kuwait",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 5,
+        "title": "Norman Devane",
+        "blacklist_guide": "138"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 6,
+        "title": "Dr. Lewis Powell",
+        "blacklist_guide": "130"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 7,
+        "title": "Hannah Hayes",
+        "blacklist_guide": "125"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 8,
+        "title": "The Hawaladar",
+        "blacklist_guide": "162"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 9,
+        "title": "Orion Relocation Services",
+        "blacklist_guide": "159"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 10,
+        "title": "Katarina Rostova",
+        "blacklist_guide": "3"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 11,
+        "title": "Victoria Fenberg",
+        "blacklist_guide": "137"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 12,
+        "title": "Cornelius Ruck",
+        "blacklist_guide": "155"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 13,
+        "title": "Newton Purcell",
+        "blacklist_guide": "144"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 14,
+        "title": "Twamie Ullulaq",
+        "blacklist_guide": "126"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 15,
+        "title": "Gordon Kemp",
+        "blacklist_guide": "158"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 16,
+        "title": "Nyle Hatcher",
+        "blacklist_guide": "149"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 17,
+        "title": "Brothers",
+        "blacklist_guide": null
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 18,
+        "title": "Roy Cain",
+        "blacklist_guide": "150"
+    },
+    {
+        "season_no": 7,
+        "no_in_season": 19,
+        "title": "The Kazanjian Brothers",
+        "blacklist_guide": "156\/157"
+    }
+]
