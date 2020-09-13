@@ -25,3 +25,6 @@ yarn-error.log*
 # local
 /scripts
 */env
+/.vscode
+__pycache__
+src/assets/*.zip
