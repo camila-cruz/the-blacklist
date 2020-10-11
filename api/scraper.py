@@ -5,6 +5,10 @@ import pandas as pd
 class Blacklist():
     def __init__(self):
 
+        
+        self.blacklist = pd.read_json('blacklist.json')
+        return
+
         # Wikipedia's list of episodes
         URL = 'https://en.wikipedia.org/wiki/List_of_The_Blacklist_episodes'
 
@@ -96,11 +100,15 @@ class Blacklist():
             
         self.blacklist['blacklist_guide'] = new_serie
 
+    def order_by_number_in_guide(self):
+        self.blacklist = self.blacklist.sort_values(by=['blacklist_guide'])
+
     def run(self, episode):
         self.cut_list(episode)
         self.removes_the_conclusions()
         self.removes_episodes_without_blacklisters()
         self.split_characters()
+        self.order_by_number_in_guide()
 
         blacklist_json = self.blacklist.to_json(orient='records')
         return blacklist_json
