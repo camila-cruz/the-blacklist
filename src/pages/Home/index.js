@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import Container from '../../components/Container';
 
@@ -9,13 +10,22 @@ export default function Home() {
     const seasons = 7;
     const episodes_per_season = [22, 22, 23, 22, 22, 22, 19]
     const [seasonPicked, setSeason] = useState(null)
+    const [episodePicked, setEpisode] = useState(null);
+    const history = useHistory();
 
     function numberToArray(num) {
         return Array.from({length: num}, (_, i) => i + 1)
     }
 
     function showEpisodes(season) {
-        setSeason(season - 1);
+        setSeason(season);
+    }
+
+    function handleEpisodes() {
+        // Uses the user's choice to find the overall number of the episode to be passed to the next page
+        localStorage.setItem('season', seasonPicked);
+        localStorage.setItem('episode', episodePicked);
+        history.push('/list');
     }
 
     return (
@@ -30,13 +40,17 @@ export default function Home() {
             
             <p className="actionText">Select season and episode for a spoiler free experience:</p>
             <ul>
-                {numberToArray(seasons).map(season => <li key={season} onClick={(evt) => showEpisodes(season)}>{season}</li>)}
+                {numberToArray(seasons).map(
+                    season => <li key={season} onClick={(evt) => showEpisodes(season)}>{season}</li>
+                )}
             </ul>
             <br />
             <ul>
-                {numberToArray(episodes_per_season[seasonPicked]).map(episode => <li key={episode}>{episode}</li>)}
+                {numberToArray(episodes_per_season[seasonPicked - 1]).map(
+                    episode => <li key={episode} onClick={() => setEpisode(episode)}>{episode}</li>
+                )}
             </ul>
-            {seasonPicked != null && <button>CONTINUE</button>}
+            {episodePicked != null && <button onClick={handleEpisodes}>CONTINUE</button>}
         </Container>
     )
 }
