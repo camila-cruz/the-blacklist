@@ -4,13 +4,13 @@ import scraper
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
+@app.route('/<overall_episode>')
+def index(overall_episode):
     blacklist = scraper.Blacklist()
 
     # In order to use the Json Formatter Chrome extension
     response = app.response_class(
-        response=blacklist.run(152),
+        response=blacklist.run(int(overall_episode)),
         status=200,
         mimetype='application/json'
     )
