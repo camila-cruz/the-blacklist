@@ -18,13 +18,21 @@ export default function Home() {
     }
 
     function showEpisodes(season) {
-        setSeason(season);
+        setSeason(season - 1);
     }
 
     function handleEpisodes() {
         // Uses the user's choice to find the overall number of the episode to be passed to the next page
-        localStorage.setItem('season', seasonPicked);
-        localStorage.setItem('episode', episodePicked);
+
+        let overall_episode = episodePicked;
+
+        episodes_per_season.forEach((value, index) => {
+            if (index < seasonPicked) {
+                overall_episode += value
+            }
+        })
+        
+        localStorage.setItem('overall_episode', overall_episode);
         history.push('/list');
     }
 
@@ -39,18 +47,35 @@ export default function Home() {
             </p>
             
             <p className="actionText">Select season and episode for a spoiler free experience:</p>
-            <ul>
-                {numberToArray(seasons).map(
-                    season => <li key={season} onClick={(evt) => showEpisodes(season)}>{season}</li>
+            <ul className="seasonList">
+                {numberToArray(seasons).map(season => 
+                    <li 
+                        key={season}
+                        onClick={(evt) => showEpisodes(season)}
+                        className={season === seasonPicked + 1 ? 'active' : ''}
+                    >
+                        {season}
+                    </li>
                 )}
             </ul>
             <br />
-            <ul>
-                {numberToArray(episodes_per_season[seasonPicked - 1]).map(
-                    episode => <li key={episode} onClick={() => setEpisode(episode)}>{episode}</li>
+            <ul className="episodeList">
+                {numberToArray(episodes_per_season[seasonPicked]).map(episode => 
+                    <li 
+                        key={episode} 
+                        onClick={() => setEpisode(episode)}
+                        className={episode === episodePicked ? 'active' : ''}
+                    >
+                        {episode}
+                    </li>
                 )}
             </ul>
-            {episodePicked != null && <button onClick={handleEpisodes}>CONTINUE</button>}
+            {
+                episodePicked != null && 
+                <div className="callToAction">
+                    <button className="continueButton" onClick={handleEpisodes}>CONTINUE</button>
+                </div>
+            }
         </Container>
     )
 }

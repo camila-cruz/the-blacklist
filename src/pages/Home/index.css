@@ -14,3 +14,60 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    /* display: inline-block; */
+    /* margin: 0 20px; */
+    /* padding: 10px 10px; */
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+li:hover {
+    border: 1px dashed black;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.active {
+    border: 1px dashed black;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* .episodeList {
+    border: 1px dashed black;
+    border-radius: 50px;
+} */
+
+.callToAction {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.continueButton {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    
+    border: 1px solid black;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.continueButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
