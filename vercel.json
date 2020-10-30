@@ -3,7 +3,7 @@
     "functions": {
         "api/list.py": {
             "memory": 1024,
-            "maxDuration": 60,
+            "maxDuration": 10,
             "includeFiles": "api/scraper.py"
         }
     }
