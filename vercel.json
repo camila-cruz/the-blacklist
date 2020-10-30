@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
         "api/list.py": {
-            "memory": 3008,
+            "memory": 1024,
             "maxDuration": 60,
             "includeFiles": "api/scraper.py"
         }
