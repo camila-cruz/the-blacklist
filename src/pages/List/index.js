@@ -4,13 +4,13 @@ import axios from 'axios';
 import Container from '../../components/Container';
 
 export default function List() {
-    const [listEpisodes, setList] = useState([]);
+    const [blacklist, setList] = useState([]);
 
     useEffect(() => {
         const overall_episode = localStorage.getItem('overall_episode');
 
-        axios.get(`http://localhost:5000/${overall_episode}`).then((response) =>{
-            console.log('aaaaa')
+        axios.get(process.env.NEXT_PUBLIC_FUNCTIONS_API_URL + `/${overall_episode}`).then((response) =>{
+            console.log('Funcionou!')
             setList(response);
         });
 
@@ -25,7 +25,13 @@ export default function List() {
     return (
         <Container>
             <h2>The list</h2>
-            {listEpisodes}
+            <ul>
+                {
+                    blacklist.map(blacklister => {
+                        <li>{blacklister}</li>
+                    })
+                }
+            </ul>
         </Container>
     );
 }

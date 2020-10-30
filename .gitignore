@@ -28,3 +28,5 @@ yarn-error.log*
 /.vscode
 __pycache__
 src/assets/*.zip
+.env
+.vercel
