@@ -25,7 +25,13 @@ export default function List() {
     return (
         <Container>
             <h2>The list</h2>
-            {listEpisodes}
+            <ul>
+                {
+                    blacklist.map(blacklister => {
+                        <li>{blacklister}</li>
+                    })
+                }
+            </ul>
         </Container>
     );
 }
