@@ -9,7 +9,7 @@ export default function List() {
     useEffect(() => {
         const overall_episode = localStorage.getItem('overall_episode');
 
-        axios.get(`http://localhost:5000/${overall_episode}`).then((response) =>{
+        axios.get(`/api/api/${overall_episode}`).then((response) =>{
             console.log('aaaaa')
             setList(response);
         });
