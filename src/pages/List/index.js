@@ -4,7 +4,7 @@ import axios from 'axios';
 import Container from '../../components/Container';
 
 export default function List() {
-    const [listEpisodes, setList] = useState([]);
+    const [blacklist, setList] = useState([]);
 
     useEffect(() => {
         const overall_episode = localStorage.getItem('overall_episode');
