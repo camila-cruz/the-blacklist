@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import api from '../../services/api';
 
 import Container from '../../components/Container';
 
@@ -9,9 +10,10 @@ export default function List() {
     useEffect(() => {
         const overall_episode = localStorage.getItem('overall_episode');
 
-        axios.get(process.env.NEXT_PUBLIC_FUNCTIONS_API_URL + `/${overall_episode}`).then((response) =>{
-            console.log('Funcionou!')
-            setList(response);
+        // axios.get(process.env.NEXT_PUBLIC_FUNCTIONS_API_URL + `/${overall_episode}`).then((response) =>{
+        api.get(`${overall_episode}`).then((response) =>{
+            console.log(response.data)
+            setList(response.data);
         });
 
     }, []);
@@ -28,7 +30,11 @@ export default function List() {
             <ul>
                 {
                     blacklist.map(blacklister => {
-                        <li>{blacklister}</li>
+                        return (
+                            <li key={blacklister.blacklist_guide[0]}>
+                                {blacklister.title}
+                            </li>
+                        )
                     })
                 }
             </ul>

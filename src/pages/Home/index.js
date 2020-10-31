@@ -47,7 +47,7 @@ export default function Home() {
             </p>
             
             <p className="actionText">Select season and episode for a spoiler free experience:</p>
-            <ul className="seasonList">
+            <ul className="nonSpoilerList">
                 {numberToArray(seasons).map(season => 
                     <li 
                         key={season}
@@ -59,7 +59,7 @@ export default function Home() {
                 )}
             </ul>
             <br />
-            <ul className="episodeList">
+            <ul className="nonSpoilerList">
                 {numberToArray(episodes_per_season[seasonPicked]).map(episode => 
                     <li 
                         key={episode} 
