@@ -1,0 +1,11 @@
+.listTitle {
+    margin-bottom: 20px;
+}
+
+.blacklist {
+    list-style: none;
+}
+
+.blacklist li {
+    margin-bottom: 10px;
+}
