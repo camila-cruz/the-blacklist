@@ -5,6 +5,7 @@ import api from '../../services/api';
 import Container from '../../components/Container';
 
 import './index.css';
+import Axios from 'axios';
 
 export default function List() {
     const [blacklist, setList] = useState([]);
@@ -14,7 +15,7 @@ export default function List() {
         const overall_episode = localStorage.getItem('overall_episode');
 
         // axios.get(process.env.NEXT_PUBLIC_FUNCTIONS_API_URL + `/${overall_episode}`).then((response) =>{
-        api.get(`/${overall_episode}`).then((response) =>{
+        Axios.get(process.env.REACT_APP_BASE_URL + `${overall_episode}`).then((response) =>{
             console.log(response.data)
             setList(response.data);
         }).catch(err => {
