@@ -15,7 +15,7 @@ export default function List() {
         const overall_episode = localStorage.getItem('overall_episode');
 
         // axios.get(process.env.NEXT_PUBLIC_FUNCTIONS_API_URL + `/${overall_episode}`).then((response) =>{
-        Axios({
+        /* Axios({
             method: 'GET',
             url: process.env.REACT_APP_BASE_URL + `${overall_episode}`,
         }).then((response) =>{
@@ -24,7 +24,7 @@ export default function List() {
         }).catch(err => {
             console.error(err);
             setError(err);
-        });
+        }); */
         
         // Axios.get(process.env.REACT_APP_BASE_URL + `${overall_episode}`).then((response) =>{
         //     console.log(response.data)
@@ -33,6 +33,14 @@ export default function List() {
         //     console.error(err);
         //     setError(err);
         // });
+
+        api.get(`${overall_episode}`).then((response) =>{
+            console.log(response.data)
+            setList(response.data);
+        }).catch(err => {
+            console.error(err);
+            setError(err);
+        });
 
     }, []);
 
