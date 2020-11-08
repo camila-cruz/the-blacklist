@@ -54,7 +54,8 @@ export default function List() {
             if (!objAdded) {
                 list.push({
                     'blacklist_guide': [i+1],
-                    'title': '█'.repeat(getRandomArbitrary(8,15))
+                    'title': ''
+                    // 'title': '█'.repeat(getRandomArbitrary(8,15))
                 })
             }
             if (objAdded && allIndexesChecked) {
@@ -79,13 +80,18 @@ export default function List() {
 
     return (
         <Container>
-            <h2 className="listTitle">The list</h2>
+            <h2 className="listTitle">The Blacklist</h2>
             <ul className="blacklist">
                 {
                     viewableList.map(blacklister => {
                         return (
-                            <li key={blacklister.blacklist_guide[0]}>
-                                {`${blacklister.blacklist_guide[0]} - ${blacklister.title}`}
+                            <li key={blacklister.blacklist_guide[0]}>                               
+                                <span className={blacklister.title ? 'red' : ''}>
+                                    {`#${blacklister.blacklist_guide[0]}.`.padEnd(6)}
+                                </span>
+                                <span className={blacklister.title ? '' : 'redacted'}>
+                                    {blacklister.title || '⋯'.repeat(getRandomArbitrary(10, 17))}
+                                </span>
                             </li>
                         )
                     })

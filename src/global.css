@@ -21,5 +21,5 @@
 body {
     background: #E3D6C3;  /* fallback for old browsers */
     background: linear-gradient(to right, #E3D6C3, #E4D7C4, #E6D9C6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', monospace, cursive;
 }
