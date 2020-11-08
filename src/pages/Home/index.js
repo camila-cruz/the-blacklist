@@ -38,7 +38,7 @@ export default function Home() {
 
     return (
         <Container>
-            <h1 className="mainTitle">The Blacklist</h1>
+            <h1 className="mainTitle">The Blacklist: The List</h1>
             <p className="mainText">
                 In 2013, the notorius criminal Raymond Reddington turns himself in to the FBI. He asks to speak only
                 with Elizabeth Keen, a rookie profiler who is barely waking up for her first day in her new office. 
