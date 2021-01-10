@@ -1,17 +1,27 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import api from '../../services/api';
 
 import Container from '../../components/Container';
 
 import './index.css';
 
 export default function Home() {
-    // Replace it w/ a call to the API
-    const seasons = 7;
-    const episodes_per_season = [22, 22, 23, 22, 22, 22, 19]
-    const [seasonPicked, setSeason] = useState(null)
+    const [seasons, setSeasons] = useState([]);
+    const [episodes_per_season, setEpisodes] = useState([]);
+    const [seasonPicked, setSeason] = useState(null);
     const [episodePicked, setEpisode] = useState(null);
     const history = useHistory();
+
+    useEffect(() => {
+        api.get('serie_info').then((response) => {
+            console.log(response.data);
+            setSeasons(response.data.season);
+            setEpisodes(response.data.episodes);
+        }).catch(err => {
+            console.error(err);
+        });
+    }, []);
 
     function numberToArray(num) {
         return Array.from({length: num}, (_, i) => i + 1)
@@ -48,7 +58,7 @@ export default function Home() {
             
             <p className="actionText">Select season and episode for a spoiler free experience:</p>
             <ul className="nonSpoilerList">
-                {numberToArray(seasons).map(season => 
+                {seasons.map(season => 
                     <li 
                         key={season}
                         onClick={(evt) => showEpisodes(season)}
